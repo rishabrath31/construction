@@ -1,0 +1,37 @@
+
+.task-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.task-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.task-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list-container li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-list-container strong {
+  font-weight: bold;
+}
+
+.task-list-container p {
+  margin-top: 5px;
+}
+
+.task-list-container li:last-child {
+  margin-bottom: 0;
+}

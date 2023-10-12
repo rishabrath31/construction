@@ -1,0 +1,76 @@
+.signup-container {
+  background-color: #313131;
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin: 80px auto;
+  width: 450px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+/* Style for the header */
+.signup-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+
+.signup-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+/* Style for the form fields */
+.signup-form input,
+.signup-form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the submit button */
+.signup-button {
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+/* Hover effect for the submit button */
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for error messages */
+.signup-error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Center the form horizontally */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

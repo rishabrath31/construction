@@ -1,0 +1,71 @@
+.project-list-container {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin-top: 60px;
+}
+
+.project-list-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.project-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list-container li {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-list-container li strong {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-list-container li img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+.project-list-container li p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.project-list-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project-list-container button:hover {
+  background-color: #0056b3;
+}

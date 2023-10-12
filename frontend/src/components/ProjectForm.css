@@ -1,0 +1,60 @@
+.project-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #000;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  color: #fff;
+  margin: 60px auto;
+}
+
+.project-form-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Style for form elements */
+.project-form-container form div {
+  margin-bottom: 20px;
+}
+
+.project-form-container label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.project-form-container input[type="text"],
+.project-form-container textarea,
+.project-form-container input[type="file"] {
+  /* Include input[type="file"] */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.project-form-container button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 1rem auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.project-form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
